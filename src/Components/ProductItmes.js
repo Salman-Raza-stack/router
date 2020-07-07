@@ -12,7 +12,7 @@ function ProductItems() {
       <div className="link">
         <h4 className="productname">{shoe.name}</h4>
         <hr />
-        <img src={shoe.img} height={500} />
+        <img src={shoe.img} height={500} alt="shoe pic is losted" />
       </div>
     </div>
   );
